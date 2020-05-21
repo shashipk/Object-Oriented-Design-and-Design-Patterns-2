@@ -17,5 +17,6 @@ https://refactoring.guru/design-patterns
 
 https://sourcemaking.com/design_patterns
 
+#   UML 2.0
 
-
+https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
