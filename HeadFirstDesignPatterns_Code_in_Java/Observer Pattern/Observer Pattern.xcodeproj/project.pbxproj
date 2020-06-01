@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66DFDFC20273BD600C180B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B66DFDFB20273BD600C180B4 /* main.cpp */; };
+		D72091D1203478B9007FC8FB /* WeatherData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091CF203478B9007FC8FB /* WeatherData.cpp */; };
+		D72091D420347B19007FC8FB /* CurrentConditionsDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091D220347B19007FC8FB /* CurrentConditionsDisplay.cpp */; };
+		D72091D820347CC5007FC8FB /* ForecastDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091D620347CC5007FC8FB /* ForecastDisplay.cpp */; };
+		D72091DB20347CD8007FC8FB /* StatisticsDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091D920347CD8007FC8FB /* StatisticsDisplay.cpp */; };
+		D72091DE20347F47007FC8FB /* HeatIndexDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D72091DC20347F47007FC8FB /* HeatIndexDisplay.cpp */; };
+		D7652E3C203DA14400D33281 /* CurrentConditionsDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7652E33203D9BD100D33281 /* CurrentConditionsDisplay.cpp */; };
+		D7652E3D203DA15100D33281 /* ForecastDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7652E39203D9BD200D33281 /* ForecastDisplay.cpp */; };
+		D7652E3E203DA15300D33281 /* HeatIndexDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7652E32203D9BD100D33281 /* HeatIndexDisplay.cpp */; };
+		D7652E3F203DA15800D33281 /* StatisticsDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7652E36203D9BD200D33281 /* StatisticsDisplay.cpp */; };
+		D7652E40203DA15C00D33281 /* WeatherData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7652E31203D9BD100D33281 /* WeatherData.cpp */; };
+		D7652E43203DA54200D33281 /* WeatherStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7652E41203DA54200D33281 /* WeatherStation.cpp */; };
+		D7652E46203DA5C900D33281 /* WeatherStation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7652E44203DA5C900D33281 /* WeatherStation.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B66DFDF620273BD600C180B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B66DFDF820273BD600C180B4 /* Observer Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Observer Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66DFDFB20273BD600C180B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D72091CD2034778B007FC8FB /* Subject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subject.hpp; sourceTree = "<group>"; };
+		D72091CE20347875007FC8FB /* Observer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Observer.hpp; sourceTree = "<group>"; };
+		D72091CF203478B9007FC8FB /* WeatherData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WeatherData.cpp; sourceTree = "<group>"; };
+		D72091D0203478B9007FC8FB /* WeatherData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeatherData.hpp; sourceTree = "<group>"; };
+		D72091D220347B19007FC8FB /* CurrentConditionsDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CurrentConditionsDisplay.cpp; sourceTree = "<group>"; };
+		D72091D320347B19007FC8FB /* CurrentConditionsDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CurrentConditionsDisplay.hpp; sourceTree = "<group>"; };
+		D72091D520347C52007FC8FB /* DisplayElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DisplayElement.hpp; sourceTree = "<group>"; };
+		D72091D620347CC5007FC8FB /* ForecastDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForecastDisplay.cpp; sourceTree = "<group>"; };
+		D72091D720347CC5007FC8FB /* ForecastDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ForecastDisplay.hpp; sourceTree = "<group>"; };
+		D72091D920347CD8007FC8FB /* StatisticsDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StatisticsDisplay.cpp; sourceTree = "<group>"; };
+		D72091DA20347CD8007FC8FB /* StatisticsDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StatisticsDisplay.hpp; sourceTree = "<group>"; };
+		D72091DC20347F47007FC8FB /* HeatIndexDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeatIndexDisplay.cpp; sourceTree = "<group>"; };
+		D72091DD20347F47007FC8FB /* HeatIndexDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeatIndexDisplay.hpp; sourceTree = "<group>"; };
+		D7652E2F203D9BD100D33281 /* DisplayElement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DisplayElement.hpp; sourceTree = "<group>"; };
+		D7652E30203D9BD100D33281 /* Subject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subject.hpp; sourceTree = "<group>"; };
+		D7652E31203D9BD100D33281 /* WeatherData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WeatherData.cpp; sourceTree = "<group>"; };
+		D7652E32203D9BD100D33281 /* HeatIndexDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeatIndexDisplay.cpp; sourceTree = "<group>"; };
+		D7652E33203D9BD100D33281 /* CurrentConditionsDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CurrentConditionsDisplay.cpp; sourceTree = "<group>"; };
+		D7652E34203D9BD100D33281 /* HeatIndexDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeatIndexDisplay.hpp; sourceTree = "<group>"; };
+		D7652E36203D9BD200D33281 /* StatisticsDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StatisticsDisplay.cpp; sourceTree = "<group>"; };
+		D7652E37203D9BD200D33281 /* ForecastDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ForecastDisplay.hpp; sourceTree = "<group>"; };
+		D7652E38203D9BD200D33281 /* CurrentConditionsDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CurrentConditionsDisplay.hpp; sourceTree = "<group>"; };
+		D7652E39203D9BD200D33281 /* ForecastDisplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ForecastDisplay.cpp; sourceTree = "<group>"; };
+		D7652E3A203D9BD200D33281 /* StatisticsDisplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StatisticsDisplay.hpp; sourceTree = "<group>"; };
+		D7652E3B203D9BD200D33281 /* WeatherData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeatherData.hpp; sourceTree = "<group>"; };
+		D7652E41203DA54200D33281 /* WeatherStation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WeatherStation.cpp; sourceTree = "<group>"; };
+		D7652E42203DA54200D33281 /* WeatherStation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeatherStation.hpp; sourceTree = "<group>"; };
+		D7652E44203DA5C900D33281 /* WeatherStation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WeatherStation.cpp; sourceTree = "<group>"; };
+		D7652E45203DA5C900D33281 /* WeatherStation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WeatherStation.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66DFDF520273BD600C180B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B66DFDEF20273BD600C180B4 = {
+			isa = PBXGroup;
+			children = (
+				B66DFDFA20273BD600C180B4 /* Observer Pattern */,
+				B66DFDF920273BD600C180B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B66DFDF920273BD600C180B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66DFDF820273BD600C180B4 /* Observer Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66DFDFA20273BD600C180B4 /* Observer Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				D7652E2E203D9AFB00D33281 /* Weather_Lambdas */,
+				D7652E2D203D9A7E00D33281 /* Weather */,
+				B66DFDFB20273BD600C180B4 /* main.cpp */,
+			);
+			path = "Observer Pattern";
+			sourceTree = "<group>";
+		};
+		D7652E2D203D9A7E00D33281 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				D72091CD2034778B007FC8FB /* Subject.hpp */,
+				D72091CE20347875007FC8FB /* Observer.hpp */,
+				D72091CF203478B9007FC8FB /* WeatherData.cpp */,
+				D72091D0203478B9007FC8FB /* WeatherData.hpp */,
+				D72091D220347B19007FC8FB /* CurrentConditionsDisplay.cpp */,
+				D72091D320347B19007FC8FB /* CurrentConditionsDisplay.hpp */,
+				D72091D520347C52007FC8FB /* DisplayElement.hpp */,
+				D72091D620347CC5007FC8FB /* ForecastDisplay.cpp */,
+				D72091D720347CC5007FC8FB /* ForecastDisplay.hpp */,
+				D72091D920347CD8007FC8FB /* StatisticsDisplay.cpp */,
+				D72091DA20347CD8007FC8FB /* StatisticsDisplay.hpp */,
+				D72091DC20347F47007FC8FB /* HeatIndexDisplay.cpp */,
+				D72091DD20347F47007FC8FB /* HeatIndexDisplay.hpp */,
+				D7652E44203DA5C900D33281 /* WeatherStation.cpp */,
+				D7652E45203DA5C900D33281 /* WeatherStation.hpp */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		D7652E2E203D9AFB00D33281 /* Weather_Lambdas */ = {
+			isa = PBXGroup;
+			children = (
+				D7652E33203D9BD100D33281 /* CurrentConditionsDisplay.cpp */,
+				D7652E38203D9BD200D33281 /* CurrentConditionsDisplay.hpp */,
+				D7652E2F203D9BD100D33281 /* DisplayElement.hpp */,
+				D7652E39203D9BD200D33281 /* ForecastDisplay.cpp */,
+				D7652E37203D9BD200D33281 /* ForecastDisplay.hpp */,
+				D7652E32203D9BD100D33281 /* HeatIndexDisplay.cpp */,
+				D7652E34203D9BD100D33281 /* HeatIndexDisplay.hpp */,
+				D7652E36203D9BD200D33281 /* StatisticsDisplay.cpp */,
+				D7652E3A203D9BD200D33281 /* StatisticsDisplay.hpp */,
+				D7652E30203D9BD100D33281 /* Subject.hpp */,
+				D7652E31203D9BD100D33281 /* WeatherData.cpp */,
+				D7652E3B203D9BD200D33281 /* WeatherData.hpp */,
+				D7652E41203DA54200D33281 /* WeatherStation.cpp */,
+				D7652E42203DA54200D33281 /* WeatherStation.hpp */,
+			);
+			path = Weather_Lambdas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66DFDF720273BD600C180B4 /* Observer Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66DFDFF20273BD600C180B4 /* Build configuration list for PBXNativeTarget "Observer Pattern" */;
+			buildPhases = (
+				B66DFDF420273BD600C180B4 /* Sources */,
+				B66DFDF520273BD600C180B4 /* Frameworks */,
+				B66DFDF620273BD600C180B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Observer Pattern";
+			productName = "Observer Pattern";
+			productReference = B66DFDF820273BD600C180B4 /* Observer Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66DFDF020273BD600C180B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Brian Arnold";
+				TargetAttributes = {
+					B66DFDF720273BD600C180B4 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B66DFDF320273BD600C180B4 /* Build configuration list for PBXProject "Observer Pattern" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B66DFDEF20273BD600C180B4;
+			productRefGroup = B66DFDF920273BD600C180B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66DFDF720273BD600C180B4 /* Observer Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B66DFDF420273BD600C180B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72091D420347B19007FC8FB /* CurrentConditionsDisplay.cpp in Sources */,
+				D7652E3D203DA15100D33281 /* ForecastDisplay.cpp in Sources */,
+				D7652E40203DA15C00D33281 /* WeatherData.cpp in Sources */,
+				D7652E3C203DA14400D33281 /* CurrentConditionsDisplay.cpp in Sources */,
+				D7652E3E203DA15300D33281 /* HeatIndexDisplay.cpp in Sources */,
+				D7652E43203DA54200D33281 /* WeatherStation.cpp in Sources */,
+				D72091D820347CC5007FC8FB /* ForecastDisplay.cpp in Sources */,
+				D72091DB20347CD8007FC8FB /* StatisticsDisplay.cpp in Sources */,
+				D72091DE20347F47007FC8FB /* HeatIndexDisplay.cpp in Sources */,
+				D7652E3F203DA15800D33281 /* StatisticsDisplay.cpp in Sources */,
+				D72091D1203478B9007FC8FB /* WeatherData.cpp in Sources */,
+				B66DFDFC20273BD600C180B4 /* main.cpp in Sources */,
+				D7652E46203DA5C900D33281 /* WeatherStation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B66DFDFD20273BD600C180B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B66DFDFE20273BD600C180B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B66DFE0020273BD600C180B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B66DFE0120273BD600C180B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B66DFDF320273BD600C180B4 /* Build configuration list for PBXProject "Observer Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66DFDFD20273BD600C180B4 /* Debug */,
+				B66DFDFE20273BD600C180B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66DFDFF20273BD600C180B4 /* Build configuration list for PBXNativeTarget "Observer Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66DFE0020273BD600C180B4 /* Debug */,
+				B66DFE0120273BD600C180B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B66DFDF020273BD600C180B4 /* Project object */;
+}
