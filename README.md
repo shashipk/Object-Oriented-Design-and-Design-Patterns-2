@@ -31,3 +31,32 @@ https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriente
 
 https://blog.scottlogic.com/2018/06/26/solid-principles.html
 
+# Useful Links for Design Patterns 
+
+
+=========================
+
+Template method :
+
+https://beginnersbook.com/2013/12/java-arraylist-of-object-sort-example-comparable-and-comparator/
+
+https://www.geeksforgeeks.org/sort-c-stl/
+
+https://www.geeksforgeeks.org/fractional-knapsack-problem/
+
+https://refactoring.guru/design-patterns/template-method/java/example
+
+https://www2.cs.duke.edu/csed/tapestry/final11.pdf
+
+=====================================================================
+
+Abstract Factory :
+
+https://refactoring.guru/design-patterns/abstract-factory
+
+https://refactoring.guru/design-patterns/abstract-factory/java/example
+
+
+
+
+
