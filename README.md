@@ -56,6 +56,22 @@ https://refactoring.guru/design-patterns/abstract-factory
 
 https://refactoring.guru/design-patterns/abstract-factory/java/example
 
+=========================================================
+Null Object & Momento Pattern
+
+https://www.baeldung.com/java-null-object-pattern
+
+https://dzone.com/articles/null-object-pattern-in-java
+
+https://stackoverflow.com/questions/29460651/how-to-implement-a-null-object
+
+https://sourcemaking.com/design_patterns/memento/java/1
+
+https://refactoring.guru/design-patterns/memento/cpp/example
+
+
+==================================
+
 
 
 
