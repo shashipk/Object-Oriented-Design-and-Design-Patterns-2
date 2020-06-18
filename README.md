@@ -34,8 +34,6 @@ https://blog.scottlogic.com/2018/06/26/solid-principles.html
 # Useful Links for Design Patterns 
 
 
-=========================
-
 Template method :
 
 https://beginnersbook.com/2013/12/java-arraylist-of-object-sort-example-comparable-and-comparator/
@@ -57,6 +55,7 @@ https://refactoring.guru/design-patterns/abstract-factory
 https://refactoring.guru/design-patterns/abstract-factory/java/example
 
 =========================================================
+
 Null Object & Momento Pattern
 
 https://www.baeldung.com/java-null-object-pattern
